@@ -1,0 +1,161 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+div,
+p {
+  display: block;
+}
+
+header,
+section,
+footer {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.container h4 {
+  font-size: 2.2rem;
+  color: blue;
+}
+
+.bikes {
+  padding: 3rem 0;
+}
+.bikes h2 {
+  color: #ff5;
+}
+.bikes ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  padding: 1rem 0;
+  width: 100%;
+}
+.bikes li {
+  color: #ccc;
+  display: block;
+  margin: 1.5rem auto;
+  width: 30%;
+}
+.bikes li .img-container {
+  display: block;
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+.bikes li a {
+  background-color: #ff5;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-size: 2.2rem;
+  margin: 3rem auto 1.5rem;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cars h2 {
+  color: #ccc;
+}
+.cars .destacks {
+  background-color: #222;
+  border: 1px solid #ff5;
+  box-shadow: 0 0 1px rgba(68, 68, 68, 0.25);
+}
+.cars li {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 1px rgba(68, 68, 68, 0.25);
+  color: #ccc;
+  display: flex;
+  float: left;
+  height: max-content;
+  justify-content: center;
+  align-items: baseline;
+  flex-flow: column;
+}
+.cars li a {
+  background-color: #444;
+}
+
+.bikes {
+  padding: 3rem 0;
+}
+.bikes h2 {
+  color: #ff5;
+}
+.bikes ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  padding: 1rem 0;
+  width: 100%;
+}
+.bikes li {
+  color: #ccc;
+  display: block;
+  margin: 1.5rem auto;
+  width: 30%;
+}
+.bikes li .img-container {
+  display: block;
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+.bikes li a {
+  background-color: #ff5;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-size: 2.2rem;
+  margin: 3rem auto 1.5rem;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.destack {
+  background-color: #222;
+  padding: 1.5rem;
+}
+.destack h1 {
+  color: blue;
+  float: left;
+  font-size: 3rem;
+  margin-top: 0;
+}
+.destack h2 {
+  float: left;
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  color: #ff5;
+}
+.destack img {
+  width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+}
+.destack p {
+  font-size: 1.5rem;
+  color: #ff5;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
